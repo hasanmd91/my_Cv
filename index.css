@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Montserrat:ital@0;1&family=Poppins:ital@0;1&family=Roboto&family=Satisfy&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Poppins" sans-serif;
+}
+
+p,
+ul,
+li,
+a {
+  font-size: 11px;
+}
+div {
+  margin: 10px 0px;
+}
+h2 {
+  margin-bottom: 10px;
+  color: cadetblue;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  padding: 5px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  gap: 7px;
+}
+.leftcv {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+}
+.leftcv a i {
+  margin-right: 10px;
+  font-size: 17px;
+  color: rgba(19, 19, 19, 0.725);
+}
+
+.skills {
+  line-height: 20px;
+}
+
+.rightcv {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
